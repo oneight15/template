@@ -2,8 +2,10 @@
   padding-top: 40px;
   padding-bottom: 120px;
   background-image: url("../img/first-bg.jpg");
-  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 .header__info {
