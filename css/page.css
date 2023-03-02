@@ -11,9 +11,38 @@
 .page__desc {
   max-width: 960px;
   margin: 0 auto;
-  font-weight: 400;
   font-size: 22px;
-  line-height: 31px;
+  line-height: 1.41;
   text-align: center;
   margin-bottom: 90px;
+}
+
+@media (max-width: 1024px) {
+  .page__title {
+    max-width: 780px;
+    font-size: 40px;
+    line-height: 1,175;
+    margin-bottom: 28px;
+  }
+
+  .page__desc {
+    max-width: 754px;
+    font-size: 18px;
+    line-height: 1,39;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page__title {
+    font-size: 20px;
+    line-height: 1,15;
+    margin-bottom: 23px;
+  }
+
+  .page__desc {
+    font-size: 14px;
+    line-height: 1,43;
+    margin-bottom: 54px;
+  }
 }

@@ -1,0 +1,37 @@
+.contacts {
+  max-width: 208px;
+  text-align: center;
+}
+
+.contacts__phone {
+  font-size: 24px;
+  line-height: 1.167;
+}
+
+.contacts__text {
+  font-size: 16px;
+  line-height: 1,1875;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .contacts {
+    max-width: 186px;
+  }
+
+  .contacts__phone {
+    font-size: 21px;
+    line-height: 1.19;
+  }
+
+  .contacts__text {
+    font-size: 13px;
+    line-height: 1,15;
+  }
+}
+
+@media (max-width: 320px) {
+  .contacts {
+    display: none;
+  }
+}

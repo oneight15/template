@@ -1,3 +1,31 @@
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto Regular"), local("Roboto-Regular"), url('../fonts/roboto-v30-cyrillic-regular.woff2') format('woff2'), url('../fonts/roboto-v30-cyrillic-regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url('../fonts/roboto-v30-cyrillic-500.woff2') format('woff2'), url('../fonts/roboto-v30-cyrillic-500.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url('../fonts/roboto-v30-cyrillic-700.woff2') format('woff2'), url('../fonts/roboto-v30-cyrillic-700.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto Black"), local("Roboto-Black"), url('../fonts/roboto-v30-cyrillic-900.woff2') format('woff2'), url('../fonts/roboto-v30-cyrillic-900.woff') format('woff');
+  font-weight: 900;
+  font-display: swap;  
+}
+
 html {
   position: relative;
   box-sizing: border-box;
@@ -13,6 +41,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: Roboto, sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  font-weight: 400;
   color: #ffffff;
 }
 
@@ -60,6 +91,19 @@ fieldset {
   max-width: 1260px;
   padding: 0 30px;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 15px;
+  }
 }
 
 .section {
