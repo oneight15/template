@@ -1,0 +1,138 @@
+.callback {
+  background-image: url("../img/second-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.callback::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(47, 50, 75, 0.85);
+}
+
+.callback__container {
+  position: relative;
+  z-index: 2;
+}
+
+.callback__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: calc(41 / 35);
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.callback__desc {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: calc(26 / 22);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.callback__form {
+  max-width: 602px;
+  margin: 0 auto;
+}
+
+.callback__list {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-bottom: 50px;
+}
+
+.callback__label {
+  display: block;
+  margin: 0 auto;
+  max-width: 423px;
+  border: 1.38235px solid #ffffff;
+  border-radius: 50px;
+}
+
+.callback__input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 22px;
+  line-height: calc(26 / 22);
+  padding: 9px 26px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.callback__btn {
+  display: block;
+  width: 218px;
+  height: 48px;
+  background-color: #15A9CB;
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.callback__text {
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+}
+
+.callback__link {
+  color: #4A76A8;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .callback__title {
+    font-size: 32px;
+    line-height: calc(38 / 32);
+    margin-bottom: 16px;
+  }
+
+  .callback__desc {
+    font-size: 20px;
+    line-height: calc(23 / 20);
+  }
+
+  .callback__form {
+    max-width: 537px;
+  }
+
+  .callback__list {
+    gap: 20px;
+  }
+
+  .callback__label {
+    max-width: 423px;
+  }
+
+  .callback__input {
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    padding: 8px 23px;
+  }
+
+  .callback__btn {
+    margin-bottom: 30px;
+  }
+
+  .callback__text {
+    font-size: 17px;
+    line-height: calc(20 / 17);
+  }
+}
+
+@media (max-width: 320px) {
+
+}
