@@ -43,6 +43,7 @@
 .callback__list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 21px;
   margin-bottom: 50px;
 }
@@ -138,7 +139,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 685px) {
   .callback {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -156,9 +157,17 @@
     margin-bottom: 35px;
   }
 
+  .callback__form {
+    max-width: 290px;
+  }
+
   .callback__list {
     gap: 15px;
     margin-bottom: 45px;
+  }
+
+  .callback__label {
+    max-width: 287px;
   }
 
   .callback__input {

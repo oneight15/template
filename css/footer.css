@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 685px) {
   .footer {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -45,6 +45,7 @@
 
   .footer__container {
     position: relative;
+    align-content: space-between;
   }
 
   .footer::after {
@@ -55,7 +56,7 @@
     background-color: #2A2C3F;
     left: 0;
     right: 0;
-    bottom: -25px;
+    bottom: -47px;
   }
 
   .footer__container {
@@ -69,8 +70,12 @@
   }
 
   .footer__author {
-    order: 2;
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0.5;
+    bottom: -57px;
+    z-index: 7;
   }
 }
