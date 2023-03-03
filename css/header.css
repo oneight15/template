@@ -34,7 +34,7 @@
   height: 68px;
 }
 
-.header__mobile {
+.mobile-icon {
   display: none;
 }
 
@@ -47,7 +47,7 @@
   border-radius: 50px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1,15;
+  line-height: 1.15;
   text-align: center;
   padding: 12px 48px;
   margin: 0 auto;
@@ -84,15 +84,19 @@
     height: 30px;
   }
 
-  .header__mobile {
+  .mobile-icon {
     display: block;
+  }
+
+  .header__mobile-text {
+    display: none;
   }
 
   .header__link {
     width: 160px;
     height: 38px;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     padding: 9px 29px;
   }
 }

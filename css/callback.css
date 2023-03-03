@@ -70,6 +70,7 @@
   display: block;
   width: 218px;
   height: 48px;
+  padding: 11px 38px;
   background-color: #15A9CB;
   box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
@@ -94,6 +95,10 @@
 }
 
 @media (max-width: 1024px) {
+  .callback {
+    padding-bottom: 56px;
+  }
+
   .callback__title {
     font-size: 32px;
     line-height: calc(38 / 32);
@@ -114,7 +119,7 @@
   }
 
   .callback__label {
-    max-width: 423px;
+    max-width: 377px;
   }
 
   .callback__input {
@@ -134,5 +139,44 @@
 }
 
 @media (max-width: 320px) {
+  .callback {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
+  .callback__title {
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    margin-bottom: 10px;
+  }
+
+  .callback__desc {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    margin-bottom: 35px;
+  }
+
+  .callback__list {
+    gap: 15px;
+    margin-bottom: 45px;
+  }
+
+  .callback__input {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    padding: 6px 18px;
+  }
+
+  .callback__btn {
+    width: 174px;
+    height: 38px;
+    padding: 10px 26px;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+  }
+
+  .callback__text {
+    font-size: 11px;
+    line-height: calc(13 / 11);
+  }
 }
