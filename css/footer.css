@@ -39,28 +39,14 @@
 @media (max-width: 685px) {
   .footer {
     padding-top: 25px;
-    padding-bottom: 25px;
-    position: relative;
-  }
-
-  .footer__container {
-    position: relative;
-    align-content: space-between;
-  }
-
-  .footer::after {
-    content: "";
-    display: block;
-    position: absolute;
-    min-height: 47px;
-    background-color: #2A2C3F;
-    left: 0;
-    right: 0;
-    bottom: -47px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(#2F324B 0% 63%, #2A2C3F 63% 100%);
   }
 
   .footer__container {
     flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 87px;
   }
 
   .footer__text {
@@ -70,12 +56,10 @@
   }
 
   .footer__author {
-    position: absolute;
-    left: 0;
-    right: 0;
+    order: 2;
+    width: 100%;
     text-align: center;
     opacity: 0.5;
-    bottom: -57px;
-    z-index: 7;
   }
+
 }

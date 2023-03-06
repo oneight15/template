@@ -41,7 +41,9 @@
   margin: 0 auto;
 }
 
-.callback__list {
+.callback__fieldset {
+  padding: 0;
+  border: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +118,7 @@
     max-width: 537px;
   }
 
-  .callback__list {
+  .callback__fieldset {
     gap: 20px;
   }
 
@@ -162,7 +164,7 @@
     max-width: 290px;
   }
 
-  .callback__list {
+  .callback__fieldset {
     gap: 15px;
     margin-bottom: 45px;
   }

@@ -8,7 +8,11 @@
   line-height: calc(28 / 24);
 }
 
-.contacts__link {
+.contacts__icon {
+  display: none;
+}
+
+.contacts__text {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-decoration: underline;
@@ -31,7 +35,13 @@
 }
 
 @media (max-width: 685px) {
-  .contacts {
+  .contacts__phone,
+  .contacts__text {
     display: none;
+  }
+
+  .contacts__icon {
+    display: block;
+    font-size: 0;
   }
 }
