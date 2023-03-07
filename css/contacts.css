@@ -6,6 +6,7 @@
 .contacts__phone {
   font-size: 24px;
   line-height: calc(28 / 24);
+  margin-bottom: 3px;
 }
 
 .contacts__icon {
@@ -15,7 +16,8 @@
 .contacts__text {
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  
 }
 
 @media (max-width: 1024px) {
@@ -26,6 +28,7 @@
   .contacts__phone {
     font-size: 21px;
     line-height: calc(25 / 21);
+    margin-bottom: 4px;
   }
 
   .contacts__text {

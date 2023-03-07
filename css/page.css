@@ -5,7 +5,7 @@
   font-size: 52px;
   line-height: calc(61 / 52);
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   color: rgba(255, 255, 255, 0.86);
 
 }
@@ -16,7 +16,7 @@
   font-size: 22px;
   line-height: calc(31 / 22);
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -32,7 +32,7 @@
     max-width: 754px;
     font-size: 18px;
     line-height: calc(25 / 18);
-    margin-bottom: 60px;
+    margin-bottom: 57px;
   }
 }
 
@@ -40,12 +40,12 @@
   .page__title {
     font-size: 20px;
     line-height: calc(23 / 20);
-    margin-bottom: 23px;
+    margin-bottom: 26px;
   }
 
   .page__desc {
     font-size: 14px;
     line-height: calc(20 / 14);
-    margin-bottom: 54px;
+    margin-bottom: 53px;
   }
 }
